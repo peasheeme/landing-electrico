@@ -1,0 +1,337 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#intro {
+    z-index: 1;
+    background: linear-gradient(
+        rgba(102, 102, 102, 0.7), 
+        rgba(102, 102, 102, 0.7)
+      ), url("../images/bg1.jpg") no-repeat ;
+      background-blend-mode: multiply;
+      background-size: cover;
+      padding: 0 0 100px  0px;
+      position: relative;
+      
+}
+.white {
+    color: aliceblue;
+}
+/*---- nav---------*/
+h5.white {
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 0 0 ;
+}
+.navbar {
+    height: 70px;
+    margin-top: 7px;
+    padding: 5px 10px 0 0;
+}
+.bg-bar {
+    background: #614377;
+    color: white;
+    
+}
+.brand {
+    position: absolute;
+    top: -10px;
+    left:10%;
+}
+li {
+    list-style: none;
+}
+
+.nav-title {
+    font-weight: 700;
+    padding: 10px 0 0 0;
+}
+
+h1.white {
+    padding: 250px 0 0px 0;
+    font-weight: 600;
+}
+
+/*---- buttons---------*/
+
+.btn-1 {
+    margin: 50px 0 50px 0;
+    padding: 15px 30px;
+    background: #614377;
+    border:4px solid #614377;
+    color: white;
+    font-weight: 600;
+ 
+}
+.btn-1:hover {
+    margin: 50px 0 50px 0;
+    padding: 15px 30px;
+    background: white;
+    border:4px solid #614377;
+    color: #614377;
+ 
+}
+
+.t-privacidad {
+    padding: 70px 0;
+}
+
+/***-------NOSOTROS---------*/
+hr {
+    border: 10px solid #4A594C;
+    margin-top: 0;
+    position: relative;
+    
+    
+}
+ p.iconos {
+     
+     font-weight: 700;
+     text-align: center;
+ }
+ section#iconos-nosotros {
+    z-index:2;
+    margin-top: -75px;
+        
+ }
+
+ p.about-us {
+     font-weight: 600;
+     font-size: 20px;
+ }
+ .mostrar {
+     display: none;
+ }
+
+ #about {
+     padding: 100px 0;
+ }
+
+ /***-------CLIENTS---------*/
+
+ #clients {
+     background: #333333;
+     padding: 70px 0;
+ }
+ h2.clients {
+     color: white;
+     font-weight: 600;
+     padding-bottom: 50px;
+     text-align: center;
+ }
+
+ .owl-item {
+     padding: 0 5px;
+     width: 100%;
+     height: auto;
+ }
+ .img-clients {
+    width: 100%;
+    height: auto;
+ }
+    
+
+ /***-------CONTACT---------*/
+ #contact {
+    padding: 70px 0;
+     
+ }
+ h2.contact {
+     color: black;
+     font-weight: 600;
+     padding-bottom: 30PX;
+ }
+
+ h2.cotizar {
+    color: #614377;
+     font-weight: 600;
+     padding-bottom: 30PX; 
+     text-align: center;
+ }
+h5 {
+    font-weight: 600;
+}
+
+.btn-enviar {
+    background: #614377;
+    color: aliceblue;
+    border: 2px solid #614377;
+    width: 95%;
+    height: 60px;
+    font-size: 20px;
+}
+
+.contact-link {
+    color: #4D4D4D;
+}
+.contact-link:hover {
+    color: #614377;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #614377;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a.aviso2 {
+    color: #614377;
+    padding-bottom: 10px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    padding-bottom: 15px;
+}
+
+footer {
+    background: #614377;
+    color: white;
+    padding: 70px 0 50px 0;
+}
+
+.link-footer {
+    color: white;
+}
+
+.link-footer:hover {
+    color: gray;
+}
+
+
+
+@media screen and (max-width:769px){
+   /*----- nosotros-iconos--*/
+    .oculto-movil {
+        display: none;
+    }
+    .mostrar {
+    display: list-item;
+    z-index:2;
+    margin-top: -75px;
+    
+    }
+    p.iconos {
+        font-weight: 700;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .nav-title {
+        font-weight: 700;
+        padding: 0px 0 0 10px;
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    h1.white {
+        padding: 185px 0 0px 0;
+        font-weight: 600;
+    }
+    
+ }
+
+ @media screen and (max-width:450px){
+    .t-privacidad {
+        padding: 221px 0 70px 0;
+    }
+ .brand {
+    position: absolute;
+    top: 162px;
+    left: 20%;
+}
+.nav-title {
+    font-weight: 700;
+    padding: 0px 0 0 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+a.nav-link {
+    width: 50px;
+}
+h1.white {
+    padding: 248px 0 0px 0;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+#intro {
+    z-index: 1;
+    background: linear-gradient(
+ rgba(102, 102, 102, 0.7), 
+ rgba(102, 102, 102, 0.7)
+ ), url(../images/bg1.jpg) no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 0 0 50px 0px;
+    position: relative;
+}
+
+.nav-title {
+    font-weight: 700;
+    padding: 0px 0 0 10px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+p.about-us {
+     font-weight: 400; 
+    font-size: 17px;
+}
+
+#about {
+    padding: 50px 0;
+}
+
+h2.clients {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 27px;
+}
+
+h2.contact {
+    color: black;
+    font-weight: 600;
+    padding-bottom: 30PX;
+    font-size: 27px;
+}
+
+h2.cotizar {
+    color: #614377;
+    font-weight: 600;
+    padding-bottom: 30PX;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 50px;
+}
+
+.contact-link {
+    color: #4D4D4D;
+    font-size: 15px;
+}
+.footer-size {
+    font-size: 13px;
+}
+.img-kala {
+    width: 80px;
+}
+ 
+ }
+ 
